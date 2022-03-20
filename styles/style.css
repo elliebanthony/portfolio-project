@@ -1,3 +1,10 @@
-h1 {
-  color: blueviolet;
+.hero h1,
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+.hero p {
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  background-color: coral;
 }
