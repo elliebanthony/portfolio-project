@@ -8,15 +8,29 @@ h1,
 h2 {
   font-family: "Nunito", sans-serif;
   color: var(--main-color);
-  font-size: 42px;
+  font-size: 96px;
+  font-weight: bold;
 }
 p {
   font-family: "Poppins", sans-serif;
   color: var(--main-color);
   font-size: 35px;
-  margin: 0 auto;
+  margin: 0;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 2;
 }
 .hero {
   background-color: var(--back-color);
-  text-align: center;
+  text-align: var(--text-align);
+  padding: 160px 20px;
+}
+.btn-style {
+  border-radius: 4px;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 38px;
 }
