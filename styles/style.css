@@ -1,6 +1,6 @@
 :root {
-  --main-color: coral;
-  --back-color: bisque;
+  --main-color: #ffb0fe;
+  --back-color: #ff6bd6;
   --text-align: center;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
