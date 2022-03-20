@@ -41,7 +41,7 @@ p {
 }
 .text {
   display: flex;
-  margin: 10px 0;
+  margin: 10px;
 }
 .yoga-app {
   box-shadow: var(--box-shadow);
