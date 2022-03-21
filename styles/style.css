@@ -114,28 +114,26 @@ h3 {
 .email-link {
   text-align: center;
   display: block;
-  margin: 10px;
-  color: violet;
+  margin: 5px;
+  color: var(--back-color);
+  padding: 10px;
 }
 #contact h3 {
   color: var(--back-color);
   font-weight: bold;
-  margin: 10px;
 }
 #contact {
   background-color: var(--main-color);
   border-radius: 15px;
-  max-width: 50%;
+  max-width: 40%;
   margin: 0 auto;
   box-shadow: var(--box-shadow);
+  padding: 5px;
 }
 .selfie {
   border-radius: 50px;
 }
 .languages {
-  color: violet;
+  color: black;
   text-align: center;
-}
-.logos {
-  max-width: 30%;
 }
