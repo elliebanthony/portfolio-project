@@ -33,6 +33,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 38px;
+  box-shadow: var(--box-shadow);
 }
 h3 {
   font-family: "Nunito", sans-serif;
