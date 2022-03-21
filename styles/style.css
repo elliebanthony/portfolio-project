@@ -92,8 +92,11 @@ h3 {
   border-radius: 4px;
   padding: 15px 20px;
 }
+.about-body {
+  background-color: var(--back-color);
+}
 .about-title h1 {
-  color: var(--back-color);
+  color: var(--main-color);
   text-align: center;
   font-weight: bold;
   font-size: 60px;
@@ -101,7 +104,7 @@ h3 {
 .about-title h2 {
   text-align: center;
   font-size: 40px;
-  color: var(--back-color);
+  color: var(--main-color);
 }
 .about-text {
   font-size: 20px;
@@ -111,29 +114,28 @@ h3 {
   margin: 10px;
   padding: 15px;
 }
+.contact {
+  background-color: var(--main-color);
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  padding: 5px;
+}
 .email-link {
   text-align: center;
-  display: block;
-  margin: 5px;
   color: var(--back-color);
   padding: 10px;
 }
-#contact h3 {
+.contact h3 {
   color: var(--back-color);
   font-weight: bold;
-}
-#contact {
-  background-color: var(--main-color);
-  border-radius: 15px;
-  max-width: 40%;
-  margin: 0 auto;
-  box-shadow: var(--box-shadow);
-  padding: 5px;
 }
 .selfie {
   border-radius: 50px;
 }
 .languages {
-  color: black;
+  color: var(--main-color);
   text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
