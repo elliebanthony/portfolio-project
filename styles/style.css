@@ -1,7 +1,6 @@
 :root {
   --main-color: #ffb0fe;
   --back-color: #ff6bd6;
-  --text-align: center;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -24,7 +23,7 @@ p {
 }
 .hero {
   background-color: var(--back-color);
-  text-align: var(--text-align);
+  text-align: center;
   padding: 160px 20px;
 }
 .btn-style {
@@ -38,7 +37,7 @@ p {
 h3 {
   font-family: "Nunito", sans-serif;
   color: black;
-  text-align: var(--text-align);
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
@@ -53,7 +52,7 @@ h3 {
 .yoga-app {
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  text-align: var(--text-align);
+  text-align: center;
   background: var(--main-color);
   color: white;
   display: flex;
@@ -67,7 +66,7 @@ h3 {
 .weather-app {
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  text-align: var(--text-align);
+  text-align: center;
   background: var(--main-color);
   color: white;
   display: flex;
@@ -81,7 +80,7 @@ h3 {
 .yogurt-app {
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  text-align: var(--text-align);
+  text-align: center;
   background: var(--main-color);
   color: white;
   display: flex;
@@ -91,4 +90,41 @@ h3 {
   width: 200px;
   border-radius: 4px;
   padding: 15px 20px;
+}
+.about-title h1 {
+  color: var(--back-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+.about-title h2 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--back-color);
+}
+.about-text {
+  font-size: 20px;
+  color: var(--back-color);
+  background-color: var(--main-color);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+.email-link {
+  text-align: center;
+  display: block;
+  margin: 10px;
+  color: coral;
+}
+#contact h3 {
+  color: var(--back-color);
+  font-weight: bold;
+  margin: 10px;
+}
+img {
+  border-radius: 50px;
+}
+.languages {
+  color: coral;
+  text-align: center;
 }
