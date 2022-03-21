@@ -114,17 +114,27 @@ h3 {
   text-align: center;
   display: block;
   margin: 10px;
-  color: coral;
+  color: violet;
 }
 #contact h3 {
   color: var(--back-color);
   font-weight: bold;
   margin: 10px;
 }
+#contact {
+  background-color: var(--main-color);
+  border-radius: 15px;
+  max-width: 50%;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+}
 .selfie {
   border-radius: 50px;
 }
 .languages {
-  color: coral;
+  color: violet;
   text-align: center;
+}
+.logos {
+  max-width: 30%;
 }
