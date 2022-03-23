@@ -145,4 +145,10 @@ i {
 }
 .icon {
   text-align: center;
+  color: var(--main-color);
+}
+.code-source {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 13px;
 }
