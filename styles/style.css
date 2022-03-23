@@ -32,7 +32,7 @@ p {
   margin: 0;
 }
 hr {
-  color: var(--back-color);
+  color: grey;
 }
 .hero h2 {
   font-size: 24px;
