@@ -1,10 +1,12 @@
 :root {
   --main-color: #ffa0c2;
-  --back-color: bisque;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .nav-color {
   background-color: var(--back-color);
+}
+body {
+  background: linear-gradient(-45deg, #ffc796 0%, #ff6b95 100%);
 }
 h1,
 h2 {
