@@ -51,8 +51,8 @@ hr {
   box-shadow: var(--box-shadow);
 }
 h3 {
-  font-family: "Nunito", sans-serif;
-  color: black;
+  font-family: "Lora", serif;
+  color: grey;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -67,6 +67,7 @@ h3 {
 .text {
   display: flex;
   margin: 10px;
+  color: grey;
 }
 .weather-app {
   box-shadow: var(--box-shadow);
@@ -85,13 +86,8 @@ h3 {
 .about-title h1 {
   color: var(--main-color);
   text-align: center;
-  font-weight: bold;
-  font-size: 60px;
-}
-.about-title h2 {
-  text-align: center;
-  font-size: 40px;
-  color: var(--main-color);
+  font-size: 50px;
+  font-family: "Lora", serif;
 }
 .about-text {
   font-size: 15px;
@@ -110,7 +106,7 @@ h3 {
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lora", serif;
 }
 .contact-page h1 {
   font-size: 50px;
@@ -122,6 +118,7 @@ h4 {
   text-align: center;
   color: var(--main-color);
   font-size: 30px;
+  font-family: "Lora", serif;
 }
 i {
   color: var(--main-color);
