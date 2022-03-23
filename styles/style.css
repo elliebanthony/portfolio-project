@@ -144,12 +144,16 @@ h3 {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
+.contact-page h1 {
+  font-size: 50px;
+  padding: 15px;
+}
 .contact-page h2,
 h3,
 h4 {
   text-align: center;
   color: var(--main-color);
-  font-size: 35px;
+  font-size: 30px;
 }
 i {
   color: var(--main-color);
