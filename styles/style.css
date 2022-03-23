@@ -31,6 +31,9 @@ p {
   font-size: 35px;
   margin: 0;
 }
+hr {
+  color: var(--back-color);
+}
 .hero h2 {
   font-size: 24px;
   line-height: 2;
@@ -89,13 +92,13 @@ h3 {
 .about-title h2 {
   text-align: center;
   font-size: 40px;
-  color: var(--main-color);
+  color: black;
 }
 .about-text {
   font-size: 20px;
-  color: var(--back-color);
-  background-color: var(--main-color);
+  color: var(--main-color);
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
   margin: 10px;
   padding: 15px;
 }
