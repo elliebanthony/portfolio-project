@@ -66,35 +66,7 @@ h3 {
   display: flex;
   margin: 10px;
 }
-.yoga-app {
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
-  text-align: center;
-  background: var(--main-color);
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 200px;
-  border-radius: 4px;
-  padding: 15px 20px;
-}
 .weather-app {
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
-  text-align: center;
-  background: var(--main-color);
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 200px;
-  border-radius: 4px;
-  padding: 15px 20px;
-}
-.yogurt-app {
   box-shadow: var(--box-shadow);
   text-decoration: none;
   text-align: center;
