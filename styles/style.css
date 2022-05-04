@@ -144,6 +144,7 @@ i {
   text-align: center;
   color: grey;
   background-color: var(--main-color);
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   display: block;
   max-width: 50%;
