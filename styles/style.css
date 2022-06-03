@@ -68,7 +68,7 @@ h3 {
 }
 .text {
   display: flex;
-  margin: 10px;
+
   color: grey;
 }
 .weather-app {
