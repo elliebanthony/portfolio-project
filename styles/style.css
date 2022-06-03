@@ -22,7 +22,7 @@ h3 {
   color: var(--main-color);
 }
 img {
-  border-radius: 20px;
+  border-radius: 10px;
   width: 250px;
   margin: 0 auto;
 }
@@ -100,7 +100,7 @@ h3 {
   padding: 15px;
 }
 .selfie {
-  border-radius: 50px;
+  border-radius: 30px;
   width: 250;
 }
 .languages {
