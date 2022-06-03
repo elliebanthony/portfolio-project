@@ -145,10 +145,11 @@ i {
   background-color: var(--main-color);
   font-family: "Nunito", sans-serif;
   text-decoration: none;
+  width: 40%;
   display: block;
-  max-width: 50%;
   margin: 0 auto;
 }
+
 .app-title {
   font-size: 20px;
   color: var(--main-color);
