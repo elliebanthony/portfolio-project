@@ -1,14 +1,10 @@
 :root {
-  --main-color: #f67280;
+  --main-color: #ff007b;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  background: linear-gradient(
-    109.6deg,
-    rgb(245, 239, 249) 30.1%,
-    rgb(207, 211, 236) 100.2%
-  );
+  background: #ffebeb;
 }
 h1,
 h2 {
@@ -19,7 +15,10 @@ h2 {
   text-align: center;
 }
 h3 {
-  color: var(--main-color);
+  font-family: "Lora", serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 img {
   border-radius: 10px;
@@ -33,7 +32,7 @@ p {
   margin: 0;
 }
 hr {
-  color: grey;
+  color: #ff8585;
 }
 .hero h2 {
   font-size: 24px;
@@ -52,23 +51,17 @@ hr {
   padding: 15px 38px;
   box-shadow: var(--box-shadow);
 }
-h3 {
-  font-family: "Lora", serif;
-  color: grey;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-}
 .project-title {
   font-size: 50px;
 }
 .title {
   font-size: 40px;
   margin-top: 20px;
+  color: #ff5757;
 }
 .text {
   display: flex;
-  color: grey;
+  color: #ff8585;
 }
 .weather-app {
   box-shadow: var(--box-shadow);
@@ -92,7 +85,7 @@ h3 {
 }
 .about-text {
   font-size: 15px;
-  color: grey;
+  color: #ff5757;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   margin: 10px;
@@ -103,7 +96,7 @@ h3 {
   width: 250;
 }
 .languages {
-  color: var(--main-color);
+  color: #ff5757;
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
@@ -152,6 +145,6 @@ i {
 
 .app-title {
   font-size: 20px;
-  color: var(--main-color);
+  color: #ff5757;
   text-align: center;
 }
