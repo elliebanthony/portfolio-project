@@ -57,11 +57,11 @@ hr {
 .title {
   font-size: 40px;
   margin-top: 20px;
-  color: #ff5757;
+  color: var(--main-color);
 }
 .text {
   display: flex;
-  color: #ff8585;
+  color: var(--main-color);
 }
 .weather-app {
   box-shadow: var(--box-shadow);
@@ -85,7 +85,7 @@ hr {
 }
 .about-text {
   font-size: 15px;
-  color: #ff5757;
+  color: var(--main-color);
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   margin: 10px;
@@ -96,7 +96,7 @@ hr {
   width: 250;
 }
 .languages {
-  color: #ff5757;
+  color: var(--main-color);
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
@@ -134,7 +134,7 @@ i {
 }
 .apps {
   text-align: center;
-  color: black;
+  color: #ffebeb;
   background-color: var(--main-color);
   font-family: "Nunito", sans-serif;
   text-decoration: none;
@@ -145,6 +145,6 @@ i {
 
 .app-title {
   font-size: 20px;
-  color: #ff5757;
+  color: var(--main-color);
   text-align: center;
 }
